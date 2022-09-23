@@ -1,0 +1,28 @@
+{
+  "name": "-y",
+  "version": "1.0.0",
+  "description": "Node.js training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksZhov/goit-nodejs.git"
+  },
+  "author": "Oleksandr Zhovty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksZhov/goit-nodejs/issues"
+  },
+  "homepage": "https://github.com/AleksZhov/goit-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^9.4.0",
+    "uuid": "^9.0.0"
+  }
+}
