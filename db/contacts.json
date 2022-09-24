@@ -12,12 +12,6 @@
     "phone": "(294) 840-6685"
   },
   {
-    "id": "4",
-    "name": "Wylie Pope",
-    "email": "est@utquamvel.net",
-    "phone": "(692) 802-2949"
-  },
-  {
     "id": "5",
     "name": "Cyrus Jackson",
     "email": "nibh@semsempererat.com",
@@ -71,9 +65,14 @@
     "email": "qwe@gmail.com",
     "phone": "+32354667753"
   },
-
   {
     "id": "43f1aaab-c0ed-4cd2-b600-c0edefddc450",
+    "name": "Mango",
+    "email": "mango@gmail.com",
+    "phone": "322-22-22"
+  },
+  {
+    "id": "0e033fcb-f1b0-4d7b-90d4-6f131c12a8c9",
     "name": "Mango",
     "email": "mango@gmail.com",
     "phone": "322-22-22"
