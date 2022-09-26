@@ -3,11 +3,6 @@ const { get } = require("http");
 const path = require("path");
 const { v4: uuidv4 } = require("uuid");
 
-/*
- * Раскомментируй и запиши значение
- * const contactsPath = ;
- */
-
 const contactsPath = path.join(__dirname, "db/contacts.json");
 
 // function listContact give you opportunity to take list of contacts from contacts.json
@@ -41,9 +36,6 @@ async function getContactById(contactId) {
 async function removeContact(contactId) {
   try {
     const contactsList = await listContacts();
-    // const newContactList = await contactsList.filter(
-    //   (contact) => contact.id !== contactId
-    // );
     const idx = contactsList.findIndex(
       (contact) => contact.id === contactId.toString()
     );
